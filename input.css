@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .header-inner {
+        @apply flex items-center my-0 mx-auto w-[370px] gap-[15px] pt-[10px] pr-0 pb-0 pl-0
+    }
+    .vicky-img {
+        @apply w-[100px]
+    }
+    .controls-container {
+        @apply flex flex-col w-[200px] my-0 mx-auto
+    }
+    .emotion-radios {
+        @apply flex flex-col border-[1px] border-solid border-[#bcbcbc] rounded
+    }
+    .gifs-check {
+        @apply flex items-center mx-[24px] my-[16px]
+    }
+    .gifs-check-label {
+        @apply mr-[5px]
+    }
+    .get-image-btn {
+        @apply bg-[#595959] text-[#bfbfbf] font-medium text-[24px] py-[15px] px-[19px] border-none rounded mb-[8px] 
+    }
+}
